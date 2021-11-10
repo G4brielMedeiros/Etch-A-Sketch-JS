@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.sketchboard {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  border: 5px solid black;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.cell {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.cell:hover {
+  background-color: lightgray;
+}
